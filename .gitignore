@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Environment and Secret Files (Critical for Security)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build Outputs and Caches
+dist/
+build/
+.cache/
+.vite/
+.output/
+
+# IDE and Editor Specific Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
